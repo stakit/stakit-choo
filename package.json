@@ -1,0 +1,30 @@
+{
+  "name": "stakit-choo",
+  "version": "0.0.0",
+  "description": "Stakit utilities for Choo",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && npm run test:unit",
+    "test:unit": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/stakit/stakit-choo"
+  },
+  "keywords": [
+    "stakit",
+    "choo"
+  ],
+  "author": "kodedninja",
+  "license": "ISC",
+  "devDependencies": {
+    "choo": "^7.0.0",
+    "standard": "^14.0.2",
+    "tape": "^4.11.0",
+    "tape-promise": "^4.0.0"
+  },
+  "dependencies": {
+    "hstream": "^1.2.0",
+    "jsesc": "^2.5.2"
+  }
+}
