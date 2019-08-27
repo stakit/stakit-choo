@@ -19,7 +19,8 @@
   "license": "ISC",
   "devDependencies": {
     "choo": "^7.0.0",
-    "stakit": "^0.0.1",
+    "stakit": "^0.0.2",
+    "stakit-test-writer": "^0.1.0",
     "standard": "^14.0.2",
     "tape": "^4.11.0",
     "tape-promise": "^4.0.0"
